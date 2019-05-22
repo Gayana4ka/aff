@@ -1,0 +1,1693 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../images/body_fon.png') repeat-x center 0 #3a1a2d;
+  background-repeat: no-repeat;
+}
+
+.wrapp{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu{
+  font-size: 0;
+  &__left{
+    font: 400 23px/50px "RobotoCondensed-Light";
+    color: #FFFFff;
+    width: 522px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__sale{
+    font: normal 35px/40px "Lobster-Regular";
+    width: 106px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      background-image: url("../images/menu_sale.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 106px;
+      height: 100px;
+      left: 0;
+      top: -28px;
+      z-index: -1;
+    }
+  }
+  &__num{
+    color: #ffcc19;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  &__right{
+    display: inline-block;
+    position: absolute;
+    width: 480px;
+  }
+  &__action{
+    background-image: url("../images/action_fon.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    background-position-x: 40px;
+    line-height: 2;
+
+  }
+  &__action-caption{
+    text-align: end;
+    color: #ffcc19;
+    font: 400 23px/50px "RobotoCondensed-Light";
+    padding-right: 12px;
+  }
+  &__title{
+    margin-right: 20px;
+  }
+  &__action-wrapp{
+    display: inline-block;
+    width: 64%;
+  }
+  &__action-img{
+    background-image: url("../images/action_img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+  }
+  &__price{
+    color: #b7064d;
+    font: normal 30px/53px "Lobster-Regular";
+  }
+  &__sum{
+    &_line{
+      text-decoration: line-through;
+    }
+  }
+  &__currency{
+    padding-right: 31px;
+    &_line{
+      text-decoration: line-through;
+    }
+  }
+  &__bottom{
+    color: #FFFFff;
+    font: 300 12px/35px "RobotoCondensed-Light";
+    text-align: center;
+  }
+  &__bottom-txt{
+    width: 90%;
+    text-align: center;
+    padding: 3px 0;
+    background-color: #F90;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    &:hover{
+      color: #C00;
+      background-color: #FF3;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.5);
+      text-decoration: underline;
+    }
+  }
+  &__timer-wrapp{
+    display: block;
+    width: 93%;
+    margin: 5px 0 auto;
+    height: 42px;
+  }
+  &__timer-wrapp div{
+    font: 700 26px/40px "RobotoCondensed-Light", sans-serif;
+    color: #411c32;
+    display: inline-block;
+    width: 61px;
+    background: transparent url("../images/time_icon.png") 0 0 no-repeat;
+    height: 42px;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 5px;
+    letter-spacing: 20px;
+    padding-left: 8px;
+  }
+}
+
+.main{
+  font-size: 0;
+  &__left{
+    display: inline-block;
+    width: 35%;
+    padding: 40px 0 50px 0;
+  }
+  &__logo{
+    background-image: url("../images/main_logo.png");
+    width: 77%;
+    height: 211px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &__title{
+    padding-top: 15%;
+    padding-bottom: 7%;
+    font: normal 44px/45px "Lobster-Regular";
+    color: #ffcc19;
+  }
+  &__txt{
+    font: 300 24px/35px "RobotoCondensed-Light";
+    color: #FFFFff;
+  }
+  &__center{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 30%;
+    margin-right: 3%;
+  }
+  &__center-img{
+    width: 100%;
+  }
+  &__right{
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    margin: 90px 0 0 0;
+    padding: 0;
+  }
+  &__list{
+    background-image: url("../images/list.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    font: 300 18px/30px "RobotoCondensed-Light";
+    color: #FFFFff;
+    padding: 5px 0 5px 55px;
+    text-align: left;
+  }
+}
+
+.about{
+  display: inline-block;
+  background: #b7064d;
+  width: 100%;
+  margin-bottom: 130px;
+  &__bgr{
+    background-image: url("../images/about.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 255px;
+    z-index: 2;
+    position: relative;
+
+  }
+  &__txt{
+    font: 300 20px/28px "RobotoCondensed-Light";
+    color: #FFFFff;
+    padding: 25px 0 35px 215px;
+    position: absolute;
+  }
+  &__tube{
+    background-image: url("../images/tube.png");
+    background-repeat: no-repeat;
+    height: 425px;
+    width: 865px;
+    background-size: 100%;
+    background-position-y: 30px;
+    position: relative;
+  }
+  &__title-txt{
+    font: 400 31px/30px "Lobster-Regular";
+    color: #ffce22;
+    padding-left: 215px;
+    position: absolute;
+    top: 240px;
+  }
+  &__title{
+    background: #612549;
+    height: 35px;
+  }
+}
+.caption{
+  font: 400 40px/40px "Lobster-Regular";
+  color: #ffce22;
+  text-align: center;
+  padding: 40px 0 10px 0;
+  &_comm{
+    color: #3a1a2d;
+    padding: 40px 0;
+  }
+  &_expert{
+    padding: 0 0 40px 0;
+  }
+  &_use{
+    color: #612549;
+    padding: 80px 0 40px 0;
+  }
+  &_pay{
+    text-align: left;
+    padding: 30px 0 20px 0;
+  }
+  &_alert{
+    font-size: 37px;
+    color: #b50d72;
+    text-align: left;
+    padding: 0 0 30px 0;
+  }
+  &_order{
+    padding: 30px 0 30px 0;
+    font-size: 30px;
+  }
+}
+.advantages{
+  background-image: url("../images/advantages_bgr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 25px;
+  &__list{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__img{
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+    &_safe{
+      background-image: url("../images/safe.png");
+    }
+    &_plants{
+      background-image: url("../images/plants.png");
+    }
+    &_effective{
+      background-image: url("../images/effective.png");
+    }
+    &_expert{
+      background-image: url("../images/expert.png");
+    }
+  }
+  &__title{
+    text-align: center;
+    color: #ffce22;
+    font: 400 22px/30px "RobotoCondensed-Light";
+  }
+  &__txt{
+    color: #FFFFff;
+    text-align: center;
+    font: 300 20px/30px "RobotoCondensed-Light";
+  }
+}
+
+.comment{
+  background: #ffce22;
+  text-align: center;
+  &__list{
+    background-image: url("../images/commet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    display: inline-block;
+    font: 300 16px/22px "RobotoCondensed-Light";
+  }
+  &__about{
+    padding: 40px 35px 0 30px;
+    width: 79%;
+    color: #3a1a2d;
+    height: 288px;
+  }
+  &__bottom{
+    padding: 0 0 0 30px;
+  }
+  &__photo{
+    width: 84px;
+    height: 97px;
+  }
+  &__information{
+    margin-left: 10px;
+    color: #bc0831;
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+  }
+}
+
+.expert{
+  margin-top: -142px;
+  padding-top: 190px;
+  background: url(../images/expert_bgr.png) no-repeat center bottom #3a1a2d;
+  height: 400px;
+
+  &__img{
+    background-image: url("../images/expert_img.png");
+    width: 320px;
+    height: 374px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+  }
+  &__about{
+    background: #612549;
+    border-radius: 20px 20px 0 0;
+    font: 300 20px/27px "RobotoCondensed-Light";
+    padding: 15px 15px 14px;
+    color: #FFFFff;
+    position: relative;
+    vertical-align: top;
+    width: 600px;
+    display: inline-block;
+    margin-left: 15px;
+    &:before{
+      content: '';
+      position: absolute;
+      background: url(../images/tail.png) no-repeat 0 0 transparent;
+      width: 50px;
+      height: 33px;
+      left: -25px;
+      top: 110px;
+    }
+  }
+  &__information{
+    color: #ffce22;
+    padding: 40px 0 14px;
+  }
+}
+
+.use{
+  background: #ffffff;
+  padding-bottom: 60px;
+  &__img{
+    text-align: center;
+    background: url(../images/use_img.png) no-repeat center 0 transparent;
+  }
+  &__txt{
+    padding-top: 160px;
+    font: 300 20px/30px "RobotoCondensed-Light";
+    color: #b7064d;
+    vertical-align: top;
+    width: 31%;
+    display: inline-block;
+  }
+}
+
+.payment{
+  height: 380px;
+  background: #612549;
+  &__left{
+    font: 300 20px/30px "RobotoCondensed-Light";
+    color: #FFFFff;
+    width: 66%;
+    display: inline-block;
+  }
+  &__alert{
+    background: #ffce22;
+    color: #612549;
+    margin: 40px 0 0 0;
+    border-radius: 20px;
+    font: 300 20px/30px "RobotoCondensed-Light";
+    height: 290px;
+  }
+  &__wrapp{
+    display: inline-block;
+    padding: 20px 40px 20px 20px;
+    vertical-align: top;
+    width: 62%;
+  }
+  &__alimg{
+    background-image: url("../images/alimg.png");
+    display: inline-block;
+    width: 166px;
+    height: 225px;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+    position: absolute;
+  }
+  &__right{
+    display: inline-block;
+    position: absolute;
+    background: url(../images/pay_img.png) no-repeat 0 0 transparent;
+    width: 27%;
+    height: 347px;
+    background-size: 100%;
+    margin-top: -40px;
+  }
+}
+
+.order{
+  margin-top: 190px;
+  &__img{
+    background: transparent url(../images/orde_img.png) center 0 no-repeat;
+    text-align: center;
+    background-size: 100%;
+  }
+  &__txt{
+    padding-top: 190px;
+    width: 33%;
+    text-align: center;
+    color: #FFFFff;
+    font: 300 18px/50px "RobotoCondensed-Light";
+    display: inline-block;
+  }
+}
+
+.info{
+  text-align: center;
+  margin-top: 80px;
+  background: transparent url(../images/info_bgr.png) left 0 repeat-x;
+  &__img{
+    background: transparent url(../images/info_img.png) 0 0 no-repeat;
+    background-size: 100%;
+    z-index: -1;
+  }
+  &__left{
+    background: transparent url(../images/border_img.png) 20px 38px no-repeat;
+    width: 47%;
+    background-size: 95%;
+    display: inline-block;
+  }
+  &__caption{
+    color: #FFFFff;
+    font: 700 38px/40px "Lobster-Regular";
+    padding: 55px 0 0 195px;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      background: transparent url(../images/info_cap.png) 0 0 no-repeat;
+      width: 49%;
+      background-size: 100%;
+      height: 405px;
+      left: -50px;
+      top: -50px;
+      z-index: 1;
+    }
+  }
+  &__price{
+    background: transparent url(../images/info_sum.png) left 0 no-repeat;
+    width: 58%;
+    background-size: 53%;
+    height: 73px;
+    text-align: center;
+    margin: 25px 0 0 185px;
+    position: relative;
+  }
+  &__sum{
+    display: inline-block;
+    font: 400 28px/73px "RobotoCondensed-Light";
+    color: #b7064d;
+    width: 49%;
+    &_line{
+      color: #fcc524;
+      text-decoration: line-through;
+    }
+  }
+  &__num{
+    width: 350px;
+    font: 400 14px/25px "RobotoCondensed-Light";
+    color: #f5b429;
+    margin: 20px 0 20px 95px;
+    padding: 0 0 0 20px;
+  }
+  &__count{
+    width: 68px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    color: #580c2b;
+    font: 400 40px/54px "RobotoCondensed-Light";
+    background: transparent url(../images/count_img.png) 0 0 no-repeat;
+  }
+  &__txt{
+    margin-left: 15px;
+    display: inline-block;
+  }
+  &__add{
+    color: #fffffe;
+    font: 300 18px/25px "RobotoCondensed-Light";
+    margin: 30px 0 0 0;
+    padding: 5px 0 30px 80px;
+    width: 275px;
+    background: transparent url(../images/add_img.png) 0 0 no-repeat;
+  }
+  &__right{
+    padding: 20px;
+    margin: 38px 0 0 55px;
+    width: 44%;
+    border-radius: 20px;
+    background: #b7064d;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__form-row{
+    margin-bottom: 20px;
+  }
+  &__title{
+    display: block;
+    color: #FFFFff;
+    font: 400 23px/23px "RobotoCondensed-Light";
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+  &__form-title{
+    display: block;
+    color: #FFFFff;
+    font: 400 23px/23px "RobotoCondensed-Light";
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+  }
+  &__form-wrapp{
+    width: 100%;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 1px;
+      right: 0;
+      bottom: 1px;
+      width: 40px;
+      background: #fff;
+      pointer-events: none;
+      border-radius: 3px;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      top: 50%;
+      margin-top: -2px;
+      right: 12px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 5px 0 5px;
+      border-color: #b7064d transparent transparent transparent;
+      pointer-events: none;
+    }
+  }
+  &__select{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ae1f22;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px #f5eedc inset;
+    box-sizing: border-box;
+    display: block;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+    color: #000;
+    outline: none;
+  }
+  &__small{
+    float: right;
+    color: #ffae2b;
+    font: italic 14px/14px "RobotoCondensed-Light";
+    text-transform: capitalize;
+  }
+  &__btn{
+    background: url(../images/sumbit_img.png) no-repeat center 0 transparent;
+    width: 203px;
+    height: 64px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    border: none;
+    text-align: center;
+    color: #FFFFff;
+    font: 700 30px/60px "RobotoCondensed-Light";
+  }
+  &__cost{
+    padding-top: 8px;
+    text-transform: uppercase;
+    font: 300 18px/22px "RobotoCondensed-Light";
+    display: inline-block;
+    width: 70px;
+    margin-left: 10px;
+    text-align: left;
+    color: #ffae2b;
+    vertical-align: top;
+    &_color{
+      color: #FFFFff;
+      margin-left: 0;
+    }
+  }
+}
+.footer{
+  margin-top: 0;
+  padding: 25px 0;
+  background: #3a1a2d;
+  color: #b7064d;
+  text-align: center;
+  font: 400 16px/26px "RobotoCondensed-Light";
+  &__privacy{
+    text-decoration: none;
+    color: #a82720;
+  }
+}
+
+
+
+
+@media only screen and (max-width : 1040px) {
+  .wrapp{
+    max-width: 93%;
+  }
+  .menu{
+    &__left{
+      font-size: 18px;
+      width: 395px;
+    }
+    &__right{
+      width: 480px;
+    }
+    &__action{
+      height: 223px;
+    }
+    &__action-caption{
+      padding-right: 0;
+    }
+    &__title{
+      margin-right: 35px;
+      font-size: 20px;
+    }
+    &__action-wrapp{
+      width: 68%;
+    }
+    &__action-img{
+      margin-right: 25px;
+      height: 45px;
+      width: 86%;
+    }
+    &__bottom-txt{
+      width: 75%;
+    }
+    &__price{
+      font: normal 28px/45px "Lobster-Regular";
+      text-align: center;
+    }
+    &__currency{
+      padding-right: 0;
+    }
+    &__sum_line{
+      margin-left: 20px;
+    }
+    &__timer-wrapp{
+      margin: 5px 25px 5px 10px;
+      width: 86%;
+
+    }
+    &__hours{
+      width: 55px;
+      height: 35px;
+      background-size: 81%;
+      letter-spacing: 17px;
+    }
+  }
+  .main{
+    &__title{
+      padding-top: 10%;
+      font-size: 35px;
+    }
+    &__txt{
+      font-size: 18px;
+    }
+    &__center{
+      width: 25%;
+    }
+
+    &__list{
+      background-size: 12%;
+    }
+  }
+  .about{
+    margin-bottom: 110px;
+    &__txt{
+      font-size: 18px;
+      padding-left: 180px;
+    }
+    &__tube{
+      background-size: 100%;
+      width: 820px;
+      height: 380px;
+    }
+    &__title-txt{
+      top: 243px;
+      font-size: 25px;
+      padding-left: 180px;
+    }
+    &__title{
+      height: 20px;
+    }
+  }
+  .caption{
+    font-size: 33px;
+    &_title{
+      font-size: 20px;
+    }
+    &_txt{
+      font-size: 18px;
+    }
+  }
+  .comment{
+    &__list{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  .expert{
+    height: 388px;
+    &__img{
+      height: 360px;
+      background-size: 90%;
+      background-position-y: 40px;
+      width: 300px;
+    }
+    &__about{
+      padding-bottom: 1px;
+      width: 490px;
+      font-size: 17px;
+    }
+    &__information{
+      padding-bottom: 14px;
+    }
+  }
+  .use{
+    &__img{
+      background-size: 85%;
+    }
+    &__txt{
+      font-size: 17px;
+    }
+  }
+  .payment{
+    &__left{
+      font-size: 17px;
+    }
+    &__alert{
+      font-size: 18px;
+    }
+  }
+  .order{
+    margin-top: 150px;
+    &__img{
+      background-size: 85%;
+    }
+    &__txt{
+      width: 31%;
+    }
+  }
+  .info{
+    &__caption{
+      font-size: 30px;
+    }
+    &__price{
+      width: 50%;
+      height: 58px;
+    }
+    &__sum{
+      width: 43%;
+      font: 400 28px/60px "RobotoCondensed-Light";
+    }
+    &__count{
+      font-size: 35px;
+    }
+    &__add{
+      padding-left: 25px;
+      font-size: 16px;
+    }
+  }
+  .footer{
+    font: 400 14px/22px "RobotoCondensed-Light";
+  }
+}
+
+@media only screen and (max-width : 930px) {
+  body{
+  }
+  .wrapp{
+    max-width: 95%;
+  }
+  .menu{
+    &__left{
+      font-size: 16px;
+      width: 398px;
+    }
+    &__sale{
+      font-size: 30px;
+      &:before{
+        background-size: 95%;
+      }
+    }
+    &__right{
+      width: 400px;
+    }
+    &__action{
+      height: 223px;
+      background-position-x: -42px;
+    }
+    &__action-caption{
+      padding-right: 30px;
+    }
+    &__title{
+      font-size: 18px;
+    }
+    &__action-wrapp{
+      width: 286px;
+    }
+    &__action-img{
+      height: 63px;
+      width: 300px;
+    }
+    &__bottom{
+      font: 300 12px/18px "RobotoCondensed-Light";
+    }
+    &__timer-wrapp{
+      height: 35px;
+      width: 95%;
+    }
+    &__hours{
+      letter-spacing: 22px;
+      background-size: 71%;
+      padding-left: 0;
+      height: 35px;
+      width: 71px;
+    }
+  }
+  .main{
+    &__left{
+      margin-left: 7%;
+      width: 30%;
+    }
+    &__logo{
+      height: 160px;
+    }
+    &__title{
+      font-size: 25px;
+    }
+    &__txt{
+      font-size: 14px;
+    }
+    &__center{
+      width: 20%;
+    }
+    &__right{
+      margin-top: 125px;
+      padding-top: 90px;
+    }
+    &__list{
+      font-size: 16px;
+    }
+  }
+  .about{
+    &__bgr{
+      height: 230px;
+      margin-left: 2%;
+    }
+    &__txt{
+      font-size: 15px;
+      padding-left: 125px;
+      width: 630px;
+      padding-bottom: 0;
+    }
+    &__tube{
+      height: 340px;
+      width: 670px;
+      background-position-y: 50px;
+    }
+    &__title-txt{
+      top: 220px;
+      font-size: 18px;
+      padding-left: 125px;
+    }
+    &__title{
+      height: 10px;
+    }
+  }
+  .caption{
+    font-size: 28px;
+  }
+  .advantages{
+    margin-left: 25px;
+    &__list{
+      width: 34%;
+    }
+    &__title{
+      font-size: 20px;
+    }
+    &__txt{
+      font-size: 17px;
+    }
+  }
+  .expert{
+    height: 368px;
+    &__img{
+      margin-left: 2%;
+      width: 265px;
+      height: 345px;
+      background-position-y: 65px;
+    }
+    &__about{
+      width: 450px;
+      font-size: 15px;
+    }
+    &__information{
+      padding-top: 20px;
+    }
+  }
+  .use{
+    background-size: 80px;
+    &__txt{
+      font-size: 15px;
+    }
+  }
+  .payment{
+    height: 350px;
+    &__left{
+      font-size: 15px;
+    }
+    &__alert{
+      height: 250px;
+      font-size: 16px;
+    }
+    &__alimg{
+      background-size: 90%;
+      margin-top: -32px;
+      background-position: right;
+    }
+  }
+  .order{
+    background-size: 80%;
+    &__txt{
+      font-size: 15px;
+    }
+  }
+  .info{
+    &__left{
+      width: 55%;
+    }
+    &__caption{
+      font-size: 28px;
+    }
+    &__form-title{
+      font-size: 20px;
+    }
+    &__select{
+      height: 30px;
+    }
+    &__btn{
+      font: 700 28px/55px "RobotoCondensed-Light";
+      height: 57px;
+      width: 180px;
+      background-size: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width : 860px) {
+  .menu{
+    &__left{
+      width: 100%;
+      font-size: 20px;
+      text-align: center;
+    }
+    &__right{
+      display: block;
+      z-index: -2;
+      margin-left: -21px;
+    }
+  }
+  .main{
+    &__left{
+      margin-top: 200px;
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+    &__logo{
+      height: 210px;
+      width: 100%;
+      background-position: center;
+      background-size: 32%;
+    }
+    &__title{
+      font: normal 30px/40px "Lobster-Regular";
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    &__txt{
+      font: 300 20px/40px "RobotoCondensed-Light";
+    }
+    &__center{
+      width: 40%;
+      text-align: end;margin-right: 10%;
+    }
+    &__center-img{
+      width: 70%;
+    }
+    &__right{
+      margin: 0;
+      width: 38%;
+      vertical-align: top;
+      padding-top: 35px;
+    }
+  }
+  .about{
+    margin-bottom: 50px;
+    &__bgr{
+      margin-left: 0;
+    }
+    &__txt{
+      font: 300 16px/22px "RobotoCondensed-Light";
+      width: 82%;
+      padding-left: 17%;
+    }
+    &__tube{
+      width: 600px;
+      height: 310px;
+    }
+    &__title-txt{
+      top: 200px;
+      padding-left: 17%;
+    }
+  }
+  .advantages{
+    &__img{
+      background-size: 95%;
+    }
+  }
+  .expert{
+    height: 364px;
+    &__img{
+      background-size: 100%;
+      width: 220px;
+      height: 325px;
+      background-position-x: right;
+      background-position-y: 65px;
+    }
+    &__about{
+      width: 386px;
+      font: 300 15px/25px "RobotoCondensed-Light";
+    }
+    &__information{
+      padding-top: 15px;
+      padding-bottom: 5px;
+    }
+  }
+  .order{
+    &__txt{
+      width: 30%;
+    }
+  }
+  .info{
+    &__img{
+      margin-left: 0;
+    }
+    &__left{
+      width: 400px;
+    }
+    &__caption{
+      padding-left: 140px;
+      font: 700 25px/30px "Lobster-Regular";
+    }
+    &__price{
+      margin-left: 150px;
+    }
+    &__sum{
+      font: 400 24px/53px "RobotoCondensed-Light";
+    }
+    &__num{
+      width: 280px;
+      margin-left: 65px;
+    }
+    &__add{
+      padding-left: 5px;
+      text-align: center;
+      font-size: 15px;
+    }
+    &__btn{
+      background-size: 100%;
+      width: 155px;
+      height: 49px;
+      font: 700 25px/46px "RobotoCondensed-Light";
+    }
+  }
+}
+
+@media only screen and (max-width : 720px) {
+  .main{
+    &__right{
+      padding-top: 0;
+    }
+    &__list{
+      padding-left: 40px;
+      background-position: left;
+    }
+  }
+  .about{
+    margin-bottom: 15px;
+    &__bgr{
+      height: 200px;
+    }
+    &__txt{
+      font-size: 14px;
+      width: 79%;
+      padding-left: 20%;
+    }
+    &__tube {
+      height: 280px;
+      width: 535px;
+    }
+    &__title-txt{
+      top: 184px;
+      padding-left: 100px;
+      font-size: 15px;
+    }
+  }
+  .advantages{
+    margin-top: 20px;
+    margin-left: 0;
+    &__title{
+      font-size: 17px;
+    }
+    &__txt{
+      font-size: 15px;
+    }
+  }
+  .expert{
+    height: 304px;
+    &__img{
+      margin-left: 0;
+      width: 160px;
+      height: 285px;
+      background-position-y: 95px;
+    }
+    &__about{
+      width: 370px;
+      font: 300 14px/21px "RobotoCondensed-Light";
+    }
+  }
+  .use{
+    padding-top: 0;
+    &__img{
+      background-size: 75%;
+    }
+    &__txt{
+      padding-top: 115px;
+      font-size: 14px;
+    }
+  }
+  .payment{
+    &__alert{
+      height: 255px;
+      font: 300 14px/26px "RobotoCondensed-Light";
+      margin-top: 25px;
+    }
+    &__wrapp{
+      padding-left: 20px;
+      padding-right: 25px;
+      font-size: 14px;
+      width: 58%;
+    }
+    &__alimg{
+      width: 155px;
+      height: 195px;
+      background-size: 90%;
+    }
+  }
+  .caption{
+    font-size: 23px;
+    padding-bottom: 20px;
+    &_alert{
+      padding-bottom: 15px;
+      font-size: 20px;
+    }
+    &_order{
+      font-size: 20px;
+    }
+  }
+  .order{
+    margin-top: 100px;
+    &__img{
+      background-size: 75%;
+    }
+    &__txt{
+      padding-top: 110px;
+      width: 32%;
+      vertical-align: top;
+      font: 300 15px/35px "RobotoCondensed-Light";
+    }
+  }
+  .info{
+    margin-top: 60px;
+    &__img{
+      margin-left: 0;
+    }
+    &__left{
+      width: 377px;
+      font: 700 20px/33px "Lobster-Regular";
+    }
+    &__caption{
+      font-size: 20px;
+      padding-left: 160px;
+    }
+    &__price{
+      margin-left: 160px;
+    }
+    &__sum{
+      font: 400 23px/50px "RobotoCondensed-Light";
+    }
+    &__num{
+      width: 75%;
+      padding-left: 0;
+      margin-left: 80px;
+    }
+    &__add{
+      padding-left: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+    &__right{
+      width: 55%;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width : 630px) {
+  .menu{
+    &__left{
+      font-size: 15px;
+    }
+    &__right{
+      width: 376px;
+    }
+    &__action{
+      background-size: 370px;
+      background-position-x: 5px;
+      height: 190px;
+    }
+    &__action-caption{
+      padding-right: 0;
+      height: 190px;
+    }
+    &__title{
+      font-size: 17px;
+      margin-right: 20px;
+    }
+    &__action-wrapp{
+      width: 275px;
+    }
+    &__action-img{
+      height: 40px;
+      width: 235px;
+    }
+    &__price{
+      font: normal 25px/40px "Lobster-Regular";
+    }
+    &__bottom{
+      font: 300 12px/15px "RobotoCondensed-Light";
+    }
+    &__timer-wrapp{
+      height: 40px;
+      text-align: center;
+    }
+    &__timer-wrapp div{
+      font: 700 22px/45px "RobotoCondensed-Light", sans-serif;
+      width: 55px;
+    }
+  }
+  .main{
+    &__left{
+      margin-top: 160px;
+    }
+    &__logo{
+      height: 175px;
+      background-size: 37%;
+    }
+    &__list{
+      font: 300 15px/23px "RobotoCondensed-Light";
+    }
+  }
+  .about{
+    &__bgr{
+      height: 220px;
+    }
+    &__txt{
+      font-size: 14px;
+      padding-top: 20px;
+    }
+    &__tube{
+      width: 475px;
+      height: 305px;
+      background-position-y: 100px;
+    }
+    &__title-txt{
+      top: 215px;
+      padding-left: 90px;
+      font-size: 13px;
+    }
+  }
+  .advantages{
+    &__img{
+      height: 150px;
+    }
+  }
+  .expert{
+    height: 366px;
+    &__img{
+      width: 145px;
+      height: 345px;
+      background-position: bottom;
+    }
+    &__about{
+      width: 270px;
+    }
+  }
+  .use{
+    &__txt{
+      padding-top: 75px;
+      font: 300 14px/25px "RobotoCondensed-Light";
+    }
+  }
+  .caption{
+    &_alert{
+      line-height: 30px;
+      font-size: 18px;
+    }
+  }
+  .payment{
+    &__alert{
+      height: 235px;
+    }
+    &__wrapp{
+      padding-right: 0;
+    }
+    &__alimg{
+      width: 140px;
+    }
+    &__right{
+      height: 195px;
+      width: 33%;
+    }
+  }
+  .order{
+    margin-top: 155px;
+    &__txt{
+      padding-top: 90px;
+      line-height: 25px;
+    }
+  }
+  .info{
+    &__left{
+      width: 362px;
+      margin-left: 35px;
+      background-size: 85%;
+    }
+    &__caption{
+      padding-left: 135px;
+      padding-top: 50px;
+      font-size: 23px;
+      &:before{
+        width: 43%;
+        height: 260px;
+        top: -55px;
+        left: -43px;
+      }
+    }
+    &__price{
+      margin-left: 135px;
+    }
+    &__num{
+      margin-top: 5px;
+    }
+    &__sumbit{
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .wrapp{
+    max-width: 100%;
+  }
+  .menu{
+    &__left{
+      font-size: 12px;
+    }
+    %__sale{
+      font-size: 25px;
+      width: 85px;
+      &:before{
+        background-size: 80%;
+      }
+    }
+  }
+  .main{
+    &__title{
+      font: normal 27px/30px "Lobster-Regular";
+    }
+    &__txt{
+      font: 300 16px/30px "RobotoCondensed-Light";
+    }
+    &__center{
+      margin-right: 6%;
+    }
+    &__right{
+      width: 35%;
+    }
+    &__list{
+      font: 300 14px/18px "RobotoCondensed-Light";
+    }
+  }
+  .about{
+    &__txt{
+      font-size: 12px;
+    }
+    &__bgr{
+      height: 200px;
+    }
+    &__tube{
+      width: 400px;
+      height: 275px;
+      background-position-y: 93px;
+    }
+    &__title-txt{
+      top: 188px;
+    }
+  }
+  .expert{
+    padding-top: 130px;
+    height: 505px;
+    &__img{
+      width: 150px;
+      height: 160px;
+      margin-left: 120px;
+      background-position: top;
+    }
+    &__about{
+      width: 330px;
+    }
+  }
+  .use__{
+    &__txt{
+      font: 300 13px/20px "RobotoCondensed-Light";
+      width: 26%;
+    }
+  }
+  .payment{
+    &__left{
+      margin-left: 15px;
+      font-size: 14px;
+      line-height: 20px;
+      width: 61%;
+    }
+    &__alert{
+      height: 280px;
+    }
+  }
+  .caption{
+    &_pay{
+      padding-bottom: 5px;
+    }
+  }
+  .order{
+    margin-top: 90px;
+    &__txt{
+      width: 28%;
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width : 400px) {
+  .menu{
+    &__right{
+      width: 325px;
+    }
+    &__action{
+      height: 185px;
+      background-position: -43px;
+    }
+  }
+  .main{
+    &__logo{
+      height: 140px;
+      background-size: 45%;
+    }
+    &__title{
+      font-size: 20px;
+    }
+    &__txt{
+      font-size: 13px;
+      line-height: 20px;
+    }
+    &__right{
+      width: 50%;
+    }
+    &__list{
+      padding-left: 30px;
+    }
+  }
+  .about{
+    &__txt{
+      padding-top: 10px;
+      font-size: 12px;
+      line-height: 17px;
+    }
+    &__tube{
+      width: 300px;
+      height: 263px;
+      background-position-y: 123px;
+    }
+    &__title-txt{
+      top: 200px;
+      padding-left: 50px;
+      font-size: 11px;
+      line-height: 15px;
+    }
+  }
+  .caption{
+    font-size: 17px;
+    padding-top: 30px;
+    line-height: 25px;
+    &_alert{
+      padding-bottom: 5px;
+      padding-top: 0;
+    }
+  }
+  .advantages{
+    &__img{
+      height: 100px;
+    }
+    &__title{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &__txt{
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+  .comment{
+    &__list{
+      margin-left: 0;
+      margin-right: 0;
+      width: 270px;
+      height: 390px;
+      font-size: 14px;
+      background-size: 100%;
+    }
+    &__about{
+      height: 230px;
+    }
+    &__bottom{
+      padding-left: 0;
+    }
+    &__information{
+      width: 50%;
+      margin-left: 0;
+    }
+  }
+  .expert{
+    padding-top: 130px;
+    height: 562px;
+    &__img{
+      width: 135px;
+      height: 160px;
+      margin-left: 50px;
+      background-position: top;
+    }
+    &__about{
+      width: 270px;
+    }
+  }
+  .use{
+    &__txt{
+      padding-top: 55px;
+      line-height: 20px;
+    }
+  }
+  .payment{
+    &__alert{
+      width: 270px;
+      line-height: 25px;
+    }
+    &__wrapp{
+      width: 150px;
+    }
+    &__alimg{
+      width: 125px;
+    }
+  }
+  .order{
+    &__txt{
+      padding-top: 60px;
+    }
+  }
+  .info{
+    &__left{
+      width: 280px;
+    }
+    &__caption{
+      padding-left: 70px;
+      font-size: 20px;
+    }
+    &__price{
+      margin-left: 115px;
+    }
+    &__sum{
+      font-size: 20px;
+      line-height: 46px;
+    }
+    &__num{
+      margin-left: 25px;
+    }
+    &__txt{
+      margin-left: 3px;
+    }
+    &__add{
+      width: 240px;
+    }
+    &__right{
+      margin-left: 0;
+      padding-top: 0;
+      width: 65%;
+    }
+    &__form-title{
+      font-size: 17px;
+      text-align: left;
+    }
+  }
+  .footer{
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

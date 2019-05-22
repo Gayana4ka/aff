@@ -1,0 +1,1242 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/body_fon.png") repeat-x center 0 #3a1a2d;
+  background-repeat: no-repeat; }
+
+.wrapp {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.menu {
+  font-size: 0; }
+  .menu__left {
+    font: 400 23px/50px "RobotoCondensed-Light";
+    color: #FFFFff;
+    width: 522px;
+    display: inline-block;
+    vertical-align: top; }
+  .menu__sale {
+    font: normal 35px/40px "Lobster-Regular";
+    width: 106px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; }
+    .menu__sale:before {
+      content: '';
+      position: absolute;
+      background-image: url("../images/menu_sale.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 106px;
+      height: 100px;
+      left: 0;
+      top: -28px;
+      z-index: -1; }
+  .menu__num {
+    color: #ffcc19;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .menu__right {
+    display: inline-block;
+    position: absolute;
+    width: 480px; }
+  .menu__action {
+    background-image: url("../images/action_fon.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    background-position-x: 40px;
+    line-height: 2; }
+  .menu__action-caption {
+    text-align: end;
+    color: #ffcc19;
+    font: 400 23px/50px "RobotoCondensed-Light";
+    padding-right: 12px; }
+  .menu__title {
+    margin-right: 20px; }
+  .menu__action-wrapp {
+    display: inline-block;
+    width: 64%; }
+  .menu__action-img {
+    background-image: url("../images/action_img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    display: inline-block; }
+  .menu__price {
+    color: #b7064d;
+    font: normal 30px/53px "Lobster-Regular"; }
+  .menu__sum_line {
+    text-decoration: line-through; }
+  .menu__currency {
+    padding-right: 31px; }
+    .menu__currency_line {
+      text-decoration: line-through; }
+  .menu__bottom {
+    color: #FFFFff;
+    font: 300 12px/35px "RobotoCondensed-Light";
+    text-align: center; }
+  .menu__bottom-txt {
+    width: 90%;
+    text-align: center;
+    padding: 3px 0;
+    background-color: #F90;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: inline-block; }
+    .menu__bottom-txt:hover {
+      color: #C00;
+      background-color: #FF3;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.5);
+      text-decoration: underline; }
+  .menu__timer-wrapp {
+    display: block;
+    width: 93%;
+    margin: 5px 0 auto;
+    height: 42px; }
+  .menu__timer-wrapp div {
+    font: 700 26px/40px "RobotoCondensed-Light", sans-serif;
+    color: #411c32;
+    display: inline-block;
+    width: 61px;
+    background: transparent url("../images/time_icon.png") 0 0 no-repeat;
+    height: 42px;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 5px;
+    letter-spacing: 20px;
+    padding-left: 8px; }
+
+.main {
+  font-size: 0; }
+  .main__left {
+    display: inline-block;
+    width: 35%;
+    padding: 40px 0 50px 0; }
+  .main__logo {
+    background-image: url("../images/main_logo.png");
+    width: 77%;
+    height: 211px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .main__title {
+    padding-top: 15%;
+    padding-bottom: 7%;
+    font: normal 44px/45px "Lobster-Regular";
+    color: #ffcc19; }
+  .main__txt {
+    font: 300 24px/35px "RobotoCondensed-Light";
+    color: #FFFFff; }
+  .main__center {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 30%;
+    margin-right: 3%; }
+  .main__center-img {
+    width: 100%; }
+  .main__right {
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    margin: 90px 0 0 0;
+    padding: 0; }
+  .main__list {
+    background-image: url("../images/list.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    font: 300 18px/30px "RobotoCondensed-Light";
+    color: #FFFFff;
+    padding: 5px 0 5px 55px;
+    text-align: left; }
+
+.about {
+  display: inline-block;
+  background: #b7064d;
+  width: 100%;
+  margin-bottom: 130px; }
+  .about__bgr {
+    background-image: url("../images/about.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 255px;
+    z-index: 2;
+    position: relative; }
+  .about__txt {
+    font: 300 20px/28px "RobotoCondensed-Light";
+    color: #FFFFff;
+    padding: 25px 0 35px 215px;
+    position: absolute; }
+  .about__tube {
+    background-image: url("../images/tube.png");
+    background-repeat: no-repeat;
+    height: 425px;
+    width: 865px;
+    background-size: 100%;
+    background-position-y: 30px;
+    position: relative; }
+  .about__title-txt {
+    font: 400 31px/30px "Lobster-Regular";
+    color: #ffce22;
+    padding-left: 215px;
+    position: absolute;
+    top: 240px; }
+  .about__title {
+    background: #612549;
+    height: 35px; }
+
+.caption {
+  font: 400 40px/40px "Lobster-Regular";
+  color: #ffce22;
+  text-align: center;
+  padding: 40px 0 10px 0; }
+  .caption_comm {
+    color: #3a1a2d;
+    padding: 40px 0; }
+  .caption_expert {
+    padding: 0 0 40px 0; }
+  .caption_use {
+    color: #612549;
+    padding: 80px 0 40px 0; }
+  .caption_pay {
+    text-align: left;
+    padding: 30px 0 20px 0; }
+  .caption_alert {
+    font-size: 37px;
+    color: #b50d72;
+    text-align: left;
+    padding: 0 0 30px 0; }
+  .caption_order {
+    padding: 30px 0 30px 0;
+    font-size: 30px; }
+
+.advantages {
+  background-image: url("../images/advantages_bgr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 25px; }
+  .advantages__list {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top; }
+  .advantages__img {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center; }
+    .advantages__img_safe {
+      background-image: url("../images/safe.png"); }
+    .advantages__img_plants {
+      background-image: url("../images/plants.png"); }
+    .advantages__img_effective {
+      background-image: url("../images/effective.png"); }
+    .advantages__img_expert {
+      background-image: url("../images/expert.png"); }
+  .advantages__title {
+    text-align: center;
+    color: #ffce22;
+    font: 400 22px/30px "RobotoCondensed-Light"; }
+  .advantages__txt {
+    color: #FFFFff;
+    text-align: center;
+    font: 300 20px/30px "RobotoCondensed-Light"; }
+
+.comment {
+  background: #ffce22;
+  text-align: center; }
+  .comment__list {
+    background-image: url("../images/commet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    display: inline-block;
+    font: 300 16px/22px "RobotoCondensed-Light"; }
+  .comment__about {
+    padding: 40px 35px 0 30px;
+    width: 79%;
+    color: #3a1a2d;
+    height: 288px; }
+  .comment__bottom {
+    padding: 0 0 0 30px; }
+  .comment__photo {
+    width: 84px;
+    height: 97px; }
+  .comment__information {
+    margin-left: 10px;
+    color: #bc0831;
+    display: inline-block;
+    width: 55%;
+    vertical-align: top; }
+
+.expert {
+  margin-top: -142px;
+  padding-top: 190px;
+  background: url(../images/expert_bgr.png) no-repeat center bottom #3a1a2d;
+  height: 400px; }
+  .expert__img {
+    background-image: url("../images/expert_img.png");
+    width: 320px;
+    height: 374px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block; }
+  .expert__about {
+    background: #612549;
+    border-radius: 20px 20px 0 0;
+    font: 300 20px/27px "RobotoCondensed-Light";
+    padding: 15px 15px 14px;
+    color: #FFFFff;
+    position: relative;
+    vertical-align: top;
+    width: 600px;
+    display: inline-block;
+    margin-left: 15px; }
+    .expert__about:before {
+      content: '';
+      position: absolute;
+      background: url(../images/tail.png) no-repeat 0 0 transparent;
+      width: 50px;
+      height: 33px;
+      left: -25px;
+      top: 110px; }
+  .expert__information {
+    color: #ffce22;
+    padding: 40px 0 14px; }
+
+.use {
+  background: #ffffff;
+  padding-bottom: 60px; }
+  .use__img {
+    text-align: center;
+    background: url(../images/use_img.png) no-repeat center 0 transparent; }
+  .use__txt {
+    padding-top: 160px;
+    font: 300 20px/30px "RobotoCondensed-Light";
+    color: #b7064d;
+    vertical-align: top;
+    width: 31%;
+    display: inline-block; }
+
+.payment {
+  height: 380px;
+  background: #612549; }
+  .payment__left {
+    font: 300 20px/30px "RobotoCondensed-Light";
+    color: #FFFFff;
+    width: 66%;
+    display: inline-block; }
+  .payment__alert {
+    background: #ffce22;
+    color: #612549;
+    margin: 40px 0 0 0;
+    border-radius: 20px;
+    font: 300 20px/30px "RobotoCondensed-Light";
+    height: 290px; }
+  .payment__wrapp {
+    display: inline-block;
+    padding: 20px 40px 20px 20px;
+    vertical-align: top;
+    width: 62%; }
+  .payment__alimg {
+    background-image: url("../images/alimg.png");
+    display: inline-block;
+    width: 166px;
+    height: 225px;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+    position: absolute; }
+  .payment__right {
+    display: inline-block;
+    position: absolute;
+    background: url(../images/pay_img.png) no-repeat 0 0 transparent;
+    width: 27%;
+    height: 347px;
+    background-size: 100%;
+    margin-top: -40px; }
+
+.order {
+  margin-top: 190px; }
+  .order__img {
+    background: transparent url(../images/orde_img.png) center 0 no-repeat;
+    text-align: center;
+    background-size: 100%; }
+  .order__txt {
+    padding-top: 190px;
+    width: 33%;
+    text-align: center;
+    color: #FFFFff;
+    font: 300 18px/50px "RobotoCondensed-Light";
+    display: inline-block; }
+
+.info {
+  text-align: center;
+  margin-top: 80px;
+  background: transparent url(../images/info_bgr.png) left 0 repeat-x; }
+  .info__img {
+    background: transparent url(../images/info_img.png) 0 0 no-repeat;
+    background-size: 100%;
+    z-index: -1; }
+  .info__left {
+    background: transparent url(../images/border_img.png) 20px 38px no-repeat;
+    width: 47%;
+    background-size: 95%;
+    display: inline-block; }
+  .info__caption {
+    color: #FFFFff;
+    font: 700 38px/40px "Lobster-Regular";
+    padding: 55px 0 0 195px;
+    position: relative; }
+    .info__caption:before {
+      content: '';
+      position: absolute;
+      background: transparent url(../images/info_cap.png) 0 0 no-repeat;
+      width: 49%;
+      background-size: 100%;
+      height: 405px;
+      left: -50px;
+      top: -50px;
+      z-index: 1; }
+  .info__price {
+    background: transparent url(../images/info_sum.png) left 0 no-repeat;
+    width: 58%;
+    background-size: 53%;
+    height: 73px;
+    text-align: center;
+    margin: 25px 0 0 185px;
+    position: relative; }
+  .info__sum {
+    display: inline-block;
+    font: 400 28px/73px "RobotoCondensed-Light";
+    color: #b7064d;
+    width: 49%; }
+    .info__sum_line {
+      color: #fcc524;
+      text-decoration: line-through; }
+  .info__num {
+    width: 350px;
+    font: 400 14px/25px "RobotoCondensed-Light";
+    color: #f5b429;
+    margin: 20px 0 20px 95px;
+    padding: 0 0 0 20px; }
+  .info__count {
+    width: 68px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    color: #580c2b;
+    font: 400 40px/54px "RobotoCondensed-Light";
+    background: transparent url(../images/count_img.png) 0 0 no-repeat; }
+  .info__txt {
+    margin-left: 15px;
+    display: inline-block; }
+  .info__add {
+    color: #fffffe;
+    font: 300 18px/25px "RobotoCondensed-Light";
+    margin: 30px 0 0 0;
+    padding: 5px 0 30px 80px;
+    width: 275px;
+    background: transparent url(../images/add_img.png) 0 0 no-repeat; }
+  .info__right {
+    padding: 20px;
+    margin: 38px 0 0 55px;
+    width: 44%;
+    border-radius: 20px;
+    background: #b7064d;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top; }
+  .info__form-row {
+    margin-bottom: 20px; }
+  .info__title {
+    display: block;
+    color: #FFFFff;
+    font: 400 23px/23px "RobotoCondensed-Light";
+    text-transform: uppercase;
+    margin-top: 0; }
+  .info__form-title {
+    display: block;
+    color: #FFFFff;
+    font: 400 23px/23px "RobotoCondensed-Light";
+    padding-bottom: 10px;
+    text-transform: uppercase; }
+  .info__form-wrapp {
+    width: 100%;
+    position: relative; }
+    .info__form-wrapp:before {
+      content: '';
+      position: absolute;
+      top: 1px;
+      right: 0;
+      bottom: 1px;
+      width: 40px;
+      background: #fff;
+      pointer-events: none;
+      border-radius: 3px; }
+    .info__form-wrapp:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      margin-top: -2px;
+      right: 12px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 5px 0 5px;
+      border-color: #b7064d transparent transparent transparent;
+      pointer-events: none; }
+  .info__select {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ae1f22;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px #f5eedc inset;
+    box-sizing: border-box;
+    display: block;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+    color: #000;
+    outline: none; }
+  .info__small {
+    float: right;
+    color: #ffae2b;
+    font: italic 14px/14px "RobotoCondensed-Light";
+    text-transform: capitalize; }
+  .info__btn {
+    background: url(../images/sumbit_img.png) no-repeat center 0 transparent;
+    width: 203px;
+    height: 64px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    border: none;
+    text-align: center;
+    color: #FFFFff;
+    font: 700 30px/60px "RobotoCondensed-Light"; }
+  .info__cost {
+    padding-top: 8px;
+    text-transform: uppercase;
+    font: 300 18px/22px "RobotoCondensed-Light";
+    display: inline-block;
+    width: 70px;
+    margin-left: 10px;
+    text-align: left;
+    color: #ffae2b;
+    vertical-align: top; }
+    .info__cost_color {
+      color: #FFFFff;
+      margin-left: 0; }
+
+.footer {
+  margin-top: 0;
+  padding: 25px 0;
+  background: #3a1a2d;
+  color: #b7064d;
+  text-align: center;
+  font: 400 16px/26px "RobotoCondensed-Light"; }
+  .footer__privacy {
+    text-decoration: none;
+    color: #a82720; }
+
+@media only screen and (max-width: 1040px) {
+  .wrapp {
+    max-width: 93%; }
+  .menu__left {
+    font-size: 18px;
+    width: 395px; }
+  .menu__right {
+    width: 480px; }
+  .menu__action {
+    height: 223px; }
+  .menu__action-caption {
+    padding-right: 0; }
+  .menu__title {
+    margin-right: 35px;
+    font-size: 20px; }
+  .menu__action-wrapp {
+    width: 68%; }
+  .menu__action-img {
+    margin-right: 25px;
+    height: 45px;
+    width: 86%; }
+  .menu__bottom-txt {
+    width: 75%; }
+  .menu__price {
+    font: normal 28px/45px "Lobster-Regular";
+    text-align: center; }
+  .menu__currency {
+    padding-right: 0; }
+  .menu__sum_line {
+    margin-left: 20px; }
+  .menu__timer-wrapp {
+    margin: 5px 25px 5px 10px;
+    width: 86%; }
+  .menu__hours {
+    width: 55px;
+    height: 35px;
+    background-size: 81%;
+    letter-spacing: 17px; }
+  .main__title {
+    padding-top: 10%;
+    font-size: 35px; }
+  .main__txt {
+    font-size: 18px; }
+  .main__center {
+    width: 25%; }
+  .main__list {
+    background-size: 12%; }
+  .about {
+    margin-bottom: 110px; }
+    .about__txt {
+      font-size: 18px;
+      padding-left: 180px; }
+    .about__tube {
+      background-size: 100%;
+      width: 820px;
+      height: 380px; }
+    .about__title-txt {
+      top: 243px;
+      font-size: 25px;
+      padding-left: 180px; }
+    .about__title {
+      height: 20px; }
+  .caption {
+    font-size: 33px; }
+    .caption_title {
+      font-size: 20px; }
+    .caption_txt {
+      font-size: 18px; }
+  .comment__list {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .expert {
+    height: 388px; }
+    .expert__img {
+      height: 360px;
+      background-size: 90%;
+      background-position-y: 40px;
+      width: 300px; }
+    .expert__about {
+      padding-bottom: 1px;
+      width: 490px;
+      font-size: 17px; }
+    .expert__information {
+      padding-bottom: 14px; }
+  .use__img {
+    background-size: 85%; }
+  .use__txt {
+    font-size: 17px; }
+  .payment__left {
+    font-size: 17px; }
+  .payment__alert {
+    font-size: 18px; }
+  .order {
+    margin-top: 150px; }
+    .order__img {
+      background-size: 85%; }
+    .order__txt {
+      width: 31%; }
+  .info__caption {
+    font-size: 30px; }
+  .info__price {
+    width: 50%;
+    height: 58px; }
+  .info__sum {
+    width: 43%;
+    font: 400 28px/60px "RobotoCondensed-Light"; }
+  .info__count {
+    font-size: 35px; }
+  .info__add {
+    padding-left: 25px;
+    font-size: 16px; }
+  .footer {
+    font: 400 14px/22px "RobotoCondensed-Light"; } }
+
+@media only screen and (max-width: 930px) {
+  .wrapp {
+    max-width: 95%; }
+  .menu__left {
+    font-size: 16px;
+    width: 398px; }
+  .menu__sale {
+    font-size: 30px; }
+    .menu__sale:before {
+      background-size: 95%; }
+  .menu__right {
+    width: 400px; }
+  .menu__action {
+    height: 223px;
+    background-position-x: -42px; }
+  .menu__action-caption {
+    padding-right: 30px; }
+  .menu__title {
+    font-size: 18px; }
+  .menu__action-wrapp {
+    width: 286px; }
+  .menu__action-img {
+    height: 63px;
+    width: 300px; }
+  .menu__bottom {
+    font: 300 12px/18px "RobotoCondensed-Light"; }
+  .menu__timer-wrapp {
+    height: 35px;
+    width: 95%; }
+  .menu__hours {
+    letter-spacing: 22px;
+    background-size: 71%;
+    padding-left: 0;
+    height: 35px;
+    width: 71px; }
+  .main__left {
+    margin-left: 7%;
+    width: 30%; }
+  .main__logo {
+    height: 160px; }
+  .main__title {
+    font-size: 25px; }
+  .main__txt {
+    font-size: 14px; }
+  .main__center {
+    width: 20%; }
+  .main__right {
+    margin-top: 125px;
+    padding-top: 90px; }
+  .main__list {
+    font-size: 16px; }
+  .about__bgr {
+    height: 230px;
+    margin-left: 2%; }
+  .about__txt {
+    font-size: 15px;
+    padding-left: 125px;
+    width: 630px;
+    padding-bottom: 0; }
+  .about__tube {
+    height: 340px;
+    width: 670px;
+    background-position-y: 50px; }
+  .about__title-txt {
+    top: 220px;
+    font-size: 18px;
+    padding-left: 125px; }
+  .about__title {
+    height: 10px; }
+  .caption {
+    font-size: 28px; }
+  .advantages {
+    margin-left: 25px; }
+    .advantages__list {
+      width: 34%; }
+    .advantages__title {
+      font-size: 20px; }
+    .advantages__txt {
+      font-size: 17px; }
+  .expert {
+    height: 368px; }
+    .expert__img {
+      margin-left: 2%;
+      width: 265px;
+      height: 345px;
+      background-position-y: 65px; }
+    .expert__about {
+      width: 450px;
+      font-size: 15px; }
+    .expert__information {
+      padding-top: 20px; }
+  .use {
+    background-size: 80px; }
+    .use__txt {
+      font-size: 15px; }
+  .payment {
+    height: 350px; }
+    .payment__left {
+      font-size: 15px; }
+    .payment__alert {
+      height: 250px;
+      font-size: 16px; }
+    .payment__alimg {
+      background-size: 90%;
+      margin-top: -32px;
+      background-position: right; }
+  .order {
+    background-size: 80%; }
+    .order__txt {
+      font-size: 15px; }
+  .info__left {
+    width: 55%; }
+  .info__caption {
+    font-size: 28px; }
+  .info__form-title {
+    font-size: 20px; }
+  .info__select {
+    height: 30px; }
+  .info__btn {
+    font: 700 28px/55px "RobotoCondensed-Light";
+    height: 57px;
+    width: 180px;
+    background-size: 100%; } }
+
+@media only screen and (max-width: 860px) {
+  .menu__left {
+    width: 100%;
+    font-size: 20px;
+    text-align: center; }
+  .menu__right {
+    display: block;
+    z-index: -2;
+    margin-left: -21px; }
+  .main__left {
+    margin-top: 200px;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center; }
+  .main__logo {
+    height: 210px;
+    width: 100%;
+    background-position: center;
+    background-size: 32%; }
+  .main__title {
+    font: normal 30px/40px "Lobster-Regular";
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .main__txt {
+    font: 300 20px/40px "RobotoCondensed-Light"; }
+  .main__center {
+    width: 40%;
+    text-align: end;
+    margin-right: 10%; }
+  .main__center-img {
+    width: 70%; }
+  .main__right {
+    margin: 0;
+    width: 38%;
+    vertical-align: top;
+    padding-top: 35px; }
+  .about {
+    margin-bottom: 50px; }
+    .about__bgr {
+      margin-left: 0; }
+    .about__txt {
+      font: 300 16px/22px "RobotoCondensed-Light";
+      width: 82%;
+      padding-left: 17%; }
+    .about__tube {
+      width: 600px;
+      height: 310px; }
+    .about__title-txt {
+      top: 200px;
+      padding-left: 17%; }
+  .advantages__img {
+    background-size: 95%; }
+  .expert {
+    height: 364px; }
+    .expert__img {
+      background-size: 100%;
+      width: 220px;
+      height: 325px;
+      background-position-x: right;
+      background-position-y: 65px; }
+    .expert__about {
+      width: 386px;
+      font: 300 15px/25px "RobotoCondensed-Light"; }
+    .expert__information {
+      padding-top: 15px;
+      padding-bottom: 5px; }
+  .order__txt {
+    width: 30%; }
+  .info__img {
+    margin-left: 0; }
+  .info__left {
+    width: 400px; }
+  .info__caption {
+    padding-left: 140px;
+    font: 700 25px/30px "Lobster-Regular"; }
+  .info__price {
+    margin-left: 150px; }
+  .info__sum {
+    font: 400 24px/53px "RobotoCondensed-Light"; }
+  .info__num {
+    width: 280px;
+    margin-left: 65px; }
+  .info__add {
+    padding-left: 5px;
+    text-align: center;
+    font-size: 15px; }
+  .info__btn {
+    background-size: 100%;
+    width: 155px;
+    height: 49px;
+    font: 700 25px/46px "RobotoCondensed-Light"; } }
+
+@media only screen and (max-width: 720px) {
+  .main__right {
+    padding-top: 0; }
+  .main__list {
+    padding-left: 40px;
+    background-position: left; }
+  .about {
+    margin-bottom: 15px; }
+    .about__bgr {
+      height: 200px; }
+    .about__txt {
+      font-size: 14px;
+      width: 79%;
+      padding-left: 20%; }
+    .about__tube {
+      height: 280px;
+      width: 535px; }
+    .about__title-txt {
+      top: 184px;
+      padding-left: 100px;
+      font-size: 15px; }
+  .advantages {
+    margin-top: 20px;
+    margin-left: 0; }
+    .advantages__title {
+      font-size: 17px; }
+    .advantages__txt {
+      font-size: 15px; }
+  .expert {
+    height: 304px; }
+    .expert__img {
+      margin-left: 0;
+      width: 160px;
+      height: 285px;
+      background-position-y: 95px; }
+    .expert__about {
+      width: 370px;
+      font: 300 14px/21px "RobotoCondensed-Light"; }
+  .use {
+    padding-top: 0; }
+    .use__img {
+      background-size: 75%; }
+    .use__txt {
+      padding-top: 115px;
+      font-size: 14px; }
+  .payment__alert {
+    height: 255px;
+    font: 300 14px/26px "RobotoCondensed-Light";
+    margin-top: 25px; }
+  .payment__wrapp {
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size: 14px;
+    width: 58%; }
+  .payment__alimg {
+    width: 155px;
+    height: 195px;
+    background-size: 90%; }
+  .caption {
+    font-size: 23px;
+    padding-bottom: 20px; }
+    .caption_alert {
+      padding-bottom: 15px;
+      font-size: 20px; }
+    .caption_order {
+      font-size: 20px; }
+  .order {
+    margin-top: 100px; }
+    .order__img {
+      background-size: 75%; }
+    .order__txt {
+      padding-top: 110px;
+      width: 32%;
+      vertical-align: top;
+      font: 300 15px/35px "RobotoCondensed-Light"; }
+  .info {
+    margin-top: 60px; }
+    .info__img {
+      margin-left: 0; }
+    .info__left {
+      width: 377px;
+      font: 700 20px/33px "Lobster-Regular"; }
+    .info__caption {
+      font-size: 20px;
+      padding-left: 160px; }
+    .info__price {
+      margin-left: 160px; }
+    .info__sum {
+      font: 400 23px/50px "RobotoCondensed-Light"; }
+    .info__num {
+      width: 75%;
+      padding-left: 0;
+      margin-left: 80px; }
+    .info__add {
+      padding-left: 5px;
+      font-size: 14px;
+      text-align: center; }
+    .info__right {
+      width: 55%;
+      margin-top: 20px; } }
+
+@media only screen and (max-width: 630px) {
+  .menu__left {
+    font-size: 15px; }
+  .menu__right {
+    width: 376px; }
+  .menu__action {
+    background-size: 370px;
+    background-position-x: 5px;
+    height: 190px; }
+  .menu__action-caption {
+    padding-right: 0;
+    height: 190px; }
+  .menu__title {
+    font-size: 17px;
+    margin-right: 20px; }
+  .menu__action-wrapp {
+    width: 275px; }
+  .menu__action-img {
+    height: 40px;
+    width: 235px; }
+  .menu__price {
+    font: normal 25px/40px "Lobster-Regular"; }
+  .menu__bottom {
+    font: 300 12px/15px "RobotoCondensed-Light"; }
+  .menu__timer-wrapp {
+    height: 40px;
+    text-align: center; }
+  .menu__timer-wrapp div {
+    font: 700 22px/45px "RobotoCondensed-Light", sans-serif;
+    width: 55px; }
+  .main__left {
+    margin-top: 160px; }
+  .main__logo {
+    height: 175px;
+    background-size: 37%; }
+  .main__list {
+    font: 300 15px/23px "RobotoCondensed-Light"; }
+  .about__bgr {
+    height: 220px; }
+  .about__txt {
+    font-size: 14px;
+    padding-top: 20px; }
+  .about__tube {
+    width: 475px;
+    height: 305px;
+    background-position-y: 100px; }
+  .about__title-txt {
+    top: 215px;
+    padding-left: 90px;
+    font-size: 13px; }
+  .advantages__img {
+    height: 150px; }
+  .expert {
+    height: 366px; }
+    .expert__img {
+      width: 145px;
+      height: 345px;
+      background-position: bottom; }
+    .expert__about {
+      width: 270px; }
+  .use__txt {
+    padding-top: 75px;
+    font: 300 14px/25px "RobotoCondensed-Light"; }
+  .caption_alert {
+    line-height: 30px;
+    font-size: 18px; }
+  .payment__alert {
+    height: 235px; }
+  .payment__wrapp {
+    padding-right: 0; }
+  .payment__alimg {
+    width: 140px; }
+  .payment__right {
+    height: 195px;
+    width: 33%; }
+  .order {
+    margin-top: 155px; }
+    .order__txt {
+      padding-top: 90px;
+      line-height: 25px; }
+  .info__left {
+    width: 362px;
+    margin-left: 35px;
+    background-size: 85%; }
+  .info__caption {
+    padding-left: 135px;
+    padding-top: 50px;
+    font-size: 23px; }
+    .info__caption:before {
+      width: 43%;
+      height: 260px;
+      top: -55px;
+      left: -43px; }
+  .info__price {
+    margin-left: 135px; }
+  .info__num {
+    margin-top: 5px; }
+  .info__sumbit {
+    text-align: center; } }
+
+@media only screen and (max-width: 500px) {
+  .wrapp {
+    max-width: 100%; }
+  .menu__left {
+    font-size: 12px; }
+  .main__title {
+    font: normal 27px/30px "Lobster-Regular"; }
+  .main__txt {
+    font: 300 16px/30px "RobotoCondensed-Light"; }
+  .main__center {
+    margin-right: 6%; }
+  .main__right {
+    width: 35%; }
+  .main__list {
+    font: 300 14px/18px "RobotoCondensed-Light"; }
+  .about__txt {
+    font-size: 12px; }
+  .about__bgr {
+    height: 200px; }
+  .about__tube {
+    width: 400px;
+    height: 275px;
+    background-position-y: 93px; }
+  .about__title-txt {
+    top: 188px; }
+  .expert {
+    padding-top: 130px;
+    height: 505px; }
+    .expert__img {
+      width: 150px;
+      height: 160px;
+      margin-left: 120px;
+      background-position: top; }
+    .expert__about {
+      width: 330px; }
+  .use____txt {
+    font: 300 13px/20px "RobotoCondensed-Light";
+    width: 26%; }
+  .payment__left {
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 61%; }
+  .payment__alert {
+    height: 280px; }
+  .caption_pay {
+    padding-bottom: 5px; }
+  .order {
+    margin-top: 90px; }
+    .order__txt {
+      width: 28%;
+      font-size: 14px; } }
+
+@media only screen and (max-width: 400px) {
+  .menu__right {
+    width: 325px; }
+  .menu__action {
+    height: 185px;
+    background-position: -43px; }
+  .main__logo {
+    height: 140px;
+    background-size: 45%; }
+  .main__title {
+    font-size: 20px; }
+  .main__txt {
+    font-size: 13px;
+    line-height: 20px; }
+  .main__right {
+    width: 50%; }
+  .main__list {
+    padding-left: 30px; }
+  .about__txt {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 17px; }
+  .about__tube {
+    width: 300px;
+    height: 263px;
+    background-position-y: 123px; }
+  .about__title-txt {
+    top: 200px;
+    padding-left: 50px;
+    font-size: 11px;
+    line-height: 15px; }
+  .caption {
+    font-size: 17px;
+    padding-top: 30px;
+    line-height: 25px; }
+    .caption_alert {
+      padding-bottom: 5px;
+      padding-top: 0; }
+  .advantages__img {
+    height: 100px; }
+  .advantages__title {
+    font-size: 14px;
+    line-height: 20px; }
+  .advantages__txt {
+    font-size: 13px;
+    line-height: 20px; }
+  .comment__list {
+    margin-left: 0;
+    margin-right: 0;
+    width: 270px;
+    height: 390px;
+    font-size: 14px;
+    background-size: 100%; }
+  .comment__about {
+    height: 230px; }
+  .comment__bottom {
+    padding-left: 0; }
+  .comment__information {
+    width: 50%;
+    margin-left: 0; }
+  .expert {
+    padding-top: 130px;
+    height: 562px; }
+    .expert__img {
+      width: 135px;
+      height: 160px;
+      margin-left: 50px;
+      background-position: top; }
+    .expert__about {
+      width: 270px; }
+  .use__txt {
+    padding-top: 55px;
+    line-height: 20px; }
+  .payment__alert {
+    width: 270px;
+    line-height: 25px; }
+  .payment__wrapp {
+    width: 150px; }
+  .payment__alimg {
+    width: 125px; }
+  .order__txt {
+    padding-top: 60px; }
+  .info__left {
+    width: 280px; }
+  .info__caption {
+    padding-left: 70px;
+    font-size: 20px; }
+  .info__price {
+    margin-left: 115px; }
+  .info__sum {
+    font-size: 20px;
+    line-height: 46px; }
+  .info__num {
+    margin-left: 25px; }
+  .info__txt {
+    margin-left: 3px; }
+  .info__add {
+    width: 240px; }
+  .info__right {
+    margin-left: 0;
+    padding-top: 0;
+    width: 65%; }
+  .info__form-title {
+    font-size: 17px;
+    text-align: left; }
+  .footer {
+    font-size: 10px;
+    line-height: 16px; } }
